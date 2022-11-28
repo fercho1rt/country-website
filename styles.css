@@ -1,0 +1,32 @@
+/*
+
+    selector  {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+    }
+
+    selector options:
+
+    tag name, such as p or img
+    .classname, such as .green or .highlighted
+    tag.class, such as h1. green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+    list-style: none;
+
+    border-style: dotted;
+}
+
+.nav.li {
+    border-style: ridge;
+    text-align: center;
+}
+
